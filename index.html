@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planet Plumbing — Precision in Every Pipe</title>
+  <meta name="description" content="Premium plumbing solutions engineered for comfort, reliability and peace of mind. Residential & commercial plumbing, emergency repairs, installations." />
+  <meta property="og:title" content="Planet Plumbing — Precision in Every Pipe" />
+  <meta property="og:description" content="Professional plumbing solutions engineered for comfort, reliability and peace of mind." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1200&q=80" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== PRELOADER ===== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <span class="preloader__brand">PLANET PLUMBING</span>
+      <div class="preloader__bar"><div class="preloader__fill" id="preloaderFill"></div></div>
+    </div>
+  </div>
+
+  <!-- ===== SCROLL PROGRESS ===== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo" aria-label="Planet Plumbing home">
+        <span class="nav__logo-mark">◉</span> PLANET <span class="nav__logo-thin">PLUMBING</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#hero" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#work" class="nav__link">Our Work</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <a href="https://wa.me/237677306151?text=Hello%20Planet%20Plumbing%2C%20I%20would%20like%20to%20enquire%20about%20your%20plumbing%20services." target="_blank" rel="noopener noreferrer" class="nav__whatsapp" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <a href="#contact" class="btn btn--small btn--primary magnetic">Request a Quote</a>
+      </div>
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-menu__nav" aria-label="Mobile">
+      <a href="#hero" class="mobile-menu__link">Home</a>
+      <a href="#about" class="mobile-menu__link">About</a>
+      <a href="#services" class="mobile-menu__link">Services</a>
+      <a href="#work" class="mobile-menu__link">Our Work</a>
+      <a href="#contact" class="mobile-menu__link">Contact</a>
+      <a href="https://wa.me/237677306151?text=Hello%20Planet%20Plumbing%2C%20I%20would%20like%20to%20enquire%20about%20your%20plumbing%20services." target="_blank" rel="noopener noreferrer" class="mobile-menu__link mobile-menu__link--wa">WhatsApp Us</a>
+      <a href="tel:+237677306151" class="mobile-menu__link mobile-menu__link--tel">+237 677 306 151</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__media">
+        <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1920&q=80&auto=format&fit=crop" alt="Professional plumber working on a residential pipe installation" class="hero__img" id="heroImg" fetchpriority="high" />
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow reveal">PRECISION PLUMBING · EST. 2009</p>
+        <h1 class="hero__headline">
+          <span class="line"><span class="line__inner">PRECISION IN</span></span>
+          <span class="line"><span class="line__inner">EVERY PIPE.</span></span>
+          <span class="line line--accent"><span class="line__inner">EXCELLENCE IN</span></span>
+          <span class="line line--accent"><span class="line__inner">EVERY DROP.</span></span>
+        </h1>
+        <p class="hero__sub reveal">Professional plumbing solutions engineered for comfort, reliability and peace of mind.</p>
+        <div class="hero__actions reveal">
+          <a href="#services" class="btn btn--primary magnetic">Explore Our Services</a>
+          <a href="#contact" class="btn btn--ghost magnetic">Request a Free Quote</a>
+          <a href="https://wa.me/237677306151?text=Hello%20Planet%20Plumbing%2C%20I%20would%20like%20to%20enquire%20about%20your%20plumbing%20services." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp magnetic">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <span>Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat">
+          <span class="stat__number" data-count="1200">0</span><span class="stat__suffix">+</span>
+          <p class="stat__label">Projects Completed</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-count="850">0</span><span class="stat__suffix">+</span>
+          <p class="stat__label">Satisfied Clients</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-count="15">0</span><span class="stat__suffix">+</span>
+          <p class="stat__label">Years of Experience</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-count="24">0</span><span class="stat__suffix">/7</span>
+          <p class="stat__label">Emergency Response</p>
+        </div>
+      </div>
+      <p class="stats__disclaimer container">* Illustrative figures — final company statistics to be verified.</p>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__media">
+          <div class="about__img-wrap reveal-img">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=900&q=80&auto=format&fit=crop" alt="Plumbing technician inspecting a modern installation" loading="lazy" />
+          </div>
+          <div class="about__img-small reveal-img">
+            <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=600&q=80&auto=format&fit=crop" alt="Copper pipe installation detail" loading="lazy" />
+          </div>
+        </div>
+        <div class="about__text">
+          <p class="eyebrow reveal">ABOUT PLANET PLUMBING</p>
+          <h2 class="h2 reveal">ENGINEERED FOR<br />PEACE OF MIND.</h2>
+          <p class="reveal">Planet Plumbing is built on a simple principle: plumbing should be invisible, dependable and beautifully executed. We combine technical expertise with premium materials and a meticulous approach to every installation, repair and maintenance task.</p>
+          <p class="reveal">From luxury residential bathrooms to complex commercial systems, our technicians deliver workmanship that stands the test of time — backed by transparent communication and genuine customer care.</p>
+          <ul class="about__list reveal">
+            <li>Professional workmanship</li>
+            <li>Quality materials only</li>
+            <li>Residential & commercial expertise</li>
+            <li>Customer satisfaction guaranteed</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">WHAT WE DO</p>
+          <h2 class="h2 reveal">OUR SERVICES</h2>
+          <p class="section-head__sub reveal">A complete suite of plumbing solutions, delivered with precision.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service-card reveal" data-service="Residential Plumbing">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=700&q=80&auto=format&fit=crop" alt="Residential kitchen sink plumbing" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Residential Plumbing</h3>
+              <p>Complete plumbing solutions for homes — from kitchens and bathrooms to full installations.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Commercial Plumbing">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=700&q=80&auto=format&fit=crop" alt="Commercial plumbing system pipes" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Commercial Plumbing</h3>
+              <p>Robust systems for offices, retail and industrial spaces, designed for uptime and efficiency.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Emergency Plumbing">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80&auto=format&fit=crop" alt="Emergency plumbing repair" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Emergency Plumbing</h3>
+              <p>Rapid response for leaks, blockages and bursts — available 24 hours a day.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Pipe Installation & Repairs">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=700&q=80&auto=format&fit=crop" alt="Copper pipe installation" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Pipe Installation & Repairs</h3>
+              <p>Precision pipework in copper and PVC, installed to the highest standards.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Bathroom Plumbing">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=700&q=80&auto=format&fit=crop" alt="Modern luxury bathroom" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Bathroom Plumbing</h3>
+              <p>Elegant bathroom installations and upgrades, from showers to full suites.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Kitchen Plumbing">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=700&q=80&auto=format&fit=crop" alt="Modern kitchen faucet and sink" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Kitchen Plumbing</h3>
+              <p>Sinks, taps, dishwashers and appliance connections — done right the first time.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Drain Cleaning">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700&q=80&auto=format&fit=crop" alt="Drain cleaning service" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Drain Cleaning</h3>
+              <p>Professional clearing and maintenance of drains and sewer lines.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Leak Detection">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=700&q=80&auto=format&fit=crop" alt="Professional leak detection" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Leak Detection</h3>
+              <p>Advanced leak detection to protect your property from water damage.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Water Heater Services">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1585128792020-803d29415281?w=700&q=80&auto=format&fit=crop" alt="Water heater installation" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Water Heater Installation & Repairs</h3>
+              <p>Efficient, safe water heating solutions for every property type.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-service="Plumbing Maintenance">
+            <div class="service-card__img"><img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=700&q=80&auto=format&fit=crop" alt="Plumbing maintenance inspection" loading="lazy" /></div>
+            <div class="service-card__body">
+              <h3>Plumbing Maintenance</h3>
+              <p>Scheduled maintenance to prevent problems before they start.</p>
+              <a href="#contact" class="service-card__link">Enquire →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why section">
+      <div class="container why__grid">
+        <div class="why__intro">
+          <p class="eyebrow reveal">WHY CHOOSE US</p>
+          <h2 class="h2 reveal">THE PLANET<br />DIFFERENCE.</h2>
+          <p class="reveal">We don't just fix pipes — we deliver confidence. Every detail is considered, every material chosen with care.</p>
+        </div>
+        <div class="why__items">
+          <div class="why__item reveal">
+            <span class="why__num">01</span>
+            <h3>Professional Technicians</h3>
+            <p>Certified, experienced plumbers who treat your property with respect.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__num">02</span>
+            <h3>Reliable Solutions</h3>
+            <p>Proven methods and durable results that last.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__num">03</span>
+            <h3>Quality Materials</h3>
+            <p>Premium fittings and pipework sourced from trusted suppliers.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__num">04</span>
+            <h3>Transparent Pricing</h3>
+            <p>Clear quotes, no surprises — just honest work.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__num">05</span>
+            <h3>Responsive Service</h3>
+            <p>Fast response times when you need us most.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__num">06</span>
+            <h3>Customer Satisfaction</h3>
+            <p>We measure success by your peace of mind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECT GALLERY ===== -->
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">ILLUSTRATIVE PORTFOLIO</p>
+          <h2 class="h2 reveal">OUR WORK</h2>
+          <p class="section-head__sub reveal">A selection of representative plumbing photography. Actual Planet Plumbing project images coming soon.</p>
+        </div>
+        <div class="work__filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="residential">Residential</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" data-filter="bathroom">Bathroom</button>
+          <button class="filter-btn" data-filter="pipework">Pipework</button>
+        </div>
+        <div class="work__grid" id="workGrid">
+          <figure class="work__item" data-cat="residential">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80&auto=format&fit=crop" alt="Residential kitchen plumbing" loading="lazy" />
+            <figcaption>Residential Kitchen</figcaption>
+          </figure>
+          <figure class="work__item" data-cat="bathroom">
+            <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80&auto=format&fit=crop" alt="Luxury bathroom installation" loading="lazy" />
+            <figcaption>Luxury Bathroom</figcaption>
+          </figure>
+          <figure class="work__item" data-cat="pipework">
+            <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&q=80&auto=format&fit=crop" alt="Copper pipework detail" loading="lazy" />
+            <figcaption>Copper Pipework</figcaption>
+          </figure>
+          <figure class="work__item" data-cat="commercial">
+            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80&auto=format&fit=crop" alt="Commercial plumbing system" loading="lazy" />
+            <figcaption>Commercial System</figcaption>
+          </figure>
+          <figure class="work__item" data-cat="bathroom">
+            <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80&auto=format&fit=crop" alt="Modern shower installation" loading="lazy" />
+            <figcaption>Shower Installation</figcaption>
+          </figure>
+          <figure class="work__item" data-cat="residential">
+            <img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=800&q=80&auto=format&fit=crop" alt="Modern faucet and sink" loading="lazy" />
+            <figcaption>Faucet & Sink</figcaption>
+          </figure>
+          <figure class="work__item" data-cat="pipework">
+            <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&q=80&auto=format&fit=crop" alt="Pipe installation" loading="lazy" />
+            <figcaption>Pipe Installation</figcaption>
+          </figure>
+          <figure class="work__item" data-cat="commercial">
+            <img src="https://images.unsplash.com/photo-1585128792020-803d29415281?w=800&q=80&auto=format&fit=crop" alt="Water heater installation" loading="lazy" />
+            <figcaption>Water Heater</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="process section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">HOW WE WORK</p>
+          <h2 class="h2 reveal">OUR PROCESS</h2>
+        </div>
+        <div class="process__steps">
+          <div class="process__line"><div class="process__line-fill" id="processLine"></div></div>
+          <div class="process__step reveal">
+            <span class="process__num">01</span>
+            <h3>Consultation</h3>
+            <p>We listen, understand your needs and define the scope.</p>
+          </div>
+          <div class="process__step reveal">
+            <span class="process__num">02</span>
+            <h3>Inspection</h3>
+            <p>Thorough assessment of your existing systems and requirements.</p>
+          </div>
+          <div class="process__step reveal">
+            <span class="process__num">03</span>
+            <h3>Execution</h3>
+            <p>Precision installation or repair, completed efficiently and cleanly.</p>
+          </div>
+          <div class="process__step reveal">
+            <span class="process__num">04</span>
+            <h3>Quality Assurance</h3>
+            <p>Final checks and testing to guarantee lasting performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">TESTIMONIALS</p>
+          <h2 class="h2 reveal">WHAT CLIENTS SAY</h2>
+          <p class="section-head__sub reveal">Placeholder testimonials — real customer reviews will be published once verified.</p>
+        </div>
+        <div class="testimonials__grid">
+          <blockquote class="testimonial reveal">
+            <p>"Planet Plumbing transformed our bathroom with incredible precision. The attention to detail was exceptional."</p>
+            <footer><span class="testimonial__avatar">A</span><span>Placeholder Client<br /><small>Residential · Bathroom Installation</small></span></footer>
+          </blockquote>
+          <blockquote class="testimonial reveal">
+            <p>"Reliable, professional and transparent. They resolved our emergency leak within hours."</p>
+            <footer><span class="testimonial__avatar">B</span><span>Placeholder Client<br /><small>Commercial · Emergency Repair</small></span></footer>
+          </blockquote>
+          <blockquote class="testimonial reveal">
+            <p>"The quality of their pipework is outstanding. A genuinely premium plumbing service."</p>
+            <footer><span class="testimonial__avatar">C</span><span>Placeholder Client<br /><small>Residential · Pipe Installation</small></span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+      <div class="container cta__inner">
+        <h2 class="cta__title reveal">LET'S GET YOUR<br />PLUMBING FLOWING.</h2>
+        <p class="cta__sub reveal">From minor repairs to complete plumbing installations, Planet Plumbing is ready to help.</p>
+        <div class="cta__actions reveal">
+          <a href="#contact" class="btn btn--primary magnetic">Request a Quote</a>
+          <a href="https://wa.me/237677306151?text=Hello%20Planet%20Plumbing%2C%20I%20would%20like%20to%20enquire%20about%20your%20plumbing%20services." target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp magnetic">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow reveal">GET IN TOUCH</p>
+          <h2 class="h2 reveal">CONTACT US</h2>
+          <p class="reveal">Call, message or fill in the form — we'll respond promptly.</p>
+          <div class="contact__methods reveal">
+            <a href="tel:+237677306151" class="contact__method">
+              <span class="contact__method-icon">☎</span>
+              <span><strong>Call Us</strong><br />+237 677 306 151</span>
+            </a>
+            <a href="https://wa.me/237677306151?text=Hello%20Planet%20Plumbing%2C%20I%20would%20like%20to%20enquire%20about%20your%20plumbing%20services." target="_blank" rel="noopener noreferrer" class="contact__method">
+              <span class="contact__method-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </span>
+              <span><strong>WhatsApp</strong><br />Message us instantly</span>
+            </a>
+          </div>
+          <div class="contact__details reveal">
+            <p><strong>Business Location</strong><br />[Location placeholder — to be confirmed]</p>
+            <p><strong>Business Hours</strong><br />Mon–Sat: 8:00 – 18:00<br />Emergency: 24/7</p>
+          </div>
+        </div>
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required autocomplete="name" />
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone *</label>
+            <input type="tel" id="phone" name="phone" required autocomplete="tel" />
+            <span class="form-error" id="phoneError"></span>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Required *</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>Residential Plumbing</option>
+              <option>Commercial Plumbing</option>
+              <option>Emergency Plumbing</option>
+              <option>Pipe Installation & Repairs</option>
+              <option>Bathroom Plumbing</option>
+              <option>Kitchen Plumbing</option>
+              <option>Drain Cleaning</option>
+              <option>Leak Detection</option>
+              <option>Water Heater Services</option>
+              <option>Plumbing Maintenance</option>
+            </select>
+            <span class="form-error" id="serviceError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full magnetic">Send Enquiry</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo">◉ PLANET <span>PLUMBING</span></a>
+        <p>Precision plumbing solutions engineered for comfort, reliability and peace of mind.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">Fb</a>
+          <a href="#" aria-label="Instagram">Ig</a>
+          <a href="#" aria-label="LinkedIn">Li</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Navigation</h4>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Our Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <a href="#services">Residential Plumbing</a>
+        <a href="#services">Commercial Plumbing</a>
+        <a href="#services">Emergency Plumbing</a>
+        <a href="#services">Leak Detection</a>
+        <a href="#services">Bathroom Plumbing</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:+237677306151">+237 677 306 151</a>
+        <a href="https://wa.me/237677306151?text=Hello%20Planet%20Plumbing%2C%20I%20would%20like%20to%20enquire%20about%20your%20plumbing%20services." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <p class="footer__muted">[Location placeholder]</p>
+        <p class="footer__muted">Mon–Sat: 8:00 – 18:00</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; <span id="year"></span> Planet Plumbing. All rights reserved.</p>
+        <p>Website Designed &amp; Developed by <a href="https://www.stechdigitalink.com" target="_blank" rel="noopener noreferrer">S-Tech Digital Ink</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <a href="https://wa.me/237677306151?text=Hello%20Planet%20Plumbing%2C%20I%20would%20like%20to%20enquire%20about%20your%20plumbing%20services." target="_blank" rel="noopener noreferrer" class="whatsapp-float" id="whatsappFloat" aria-label="Chat with Planet Plumbing on WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+    <img src="" alt="" class="lightbox__img" id="lightboxImg" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
